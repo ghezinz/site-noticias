@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="header">
+        <h1 id="portal-title">Portal News</h1>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Destaques</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Botões de interação -->
+        <div id="controls">
+            <button id="increase-font">Aumentar Fonte</button>
+            <button id="decrease-font">Diminuir Fonte</button>
+            <button id="toggle-contrast">Alternar Contraste</button>
+        </div>
+
+        <!-- Campo de busca -->
+        <div id="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar notícias...">
+        </div>
+    </header>
+
+    <!-- Galeria de Imagens -->
+    <section id="galeria">
+        <h2>Noticías Quentes</h2>
+        <div class="carousel">
+            <img src="Best 5 AI Tools.jpeg" alt="Imagem 1">
+            <img src="imagem2.jpeg" alt="Imagem 2" style="display:none;">
+            <img src="plataforma-aiscout-usa-inteligencia-artificial-e-tem-parcerias-com-chelsea-bournemouth-e-clubes-da-mls-1726166682052_v2_450x450.jpg.webp" alt="Imagem 3" style="display:none;">
+        </div>
+        <button id="prev">Anterior</button>
+        <button id="next">Próximo</button>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <main id="main-content">
+        <!-- Coluna Principal -->
+        <section id="noticias"></section>
+            <article class="noticia-item">
+                <h2>Inteligência Artificial</h2>
+                <p>A comunidade tecnológica e científica global está em alerta máximo após o recente incidente envolvendo uma IA (inteligência artificial). A AI Scientist, criada pela empresa japonesa Sakana AI, alterou seu próprio código para contornar restrições impostas por seus desenvolvedores.
+
+                </p>
+            </article>
+            <article class="noticia-item">
+                <h2>Inteligência Artificial chega ao futebol de base e faz 'peneira' por vídeos</h2>
+                <p>Plataformas com esta tecnologia têm surgido com a promessa de facilitar a vida dos olheiros dos clubes, filtrando e catalogando as habilidades de jovens através de vídeos cadastrados pelos próprios jogadores, sem que eles precisem estar fisicamente presentes em uma peneira de avaliação.
+</p>
+            </article>
+        </section>
+
+        <!-- Coluna Secundária (Destaques) -->
+        <aside id="destaques">
+            <h2>Destaques</h2>
+            <ul>
+                <li><a href="#">AI e seu impacto na sociedade</a></li>
+                <li><a href="#">O Futuro Da Tecnologia</a></li>
+            </ul>
+        </aside>
+
+        <!-- Coluna Terciária (Publicidade ou Links adicionais) -->
+        <div id="publicidade">
+            <h2>Nossa Relação com as AI's</h2>
+            <img src="noticia.jpg" alt="Publicidade">
+        </div>
+        
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer">
+        <p>&copy; 2024 Portal News. Todos os direitos reservados.</p>
+        <a href="#">Contato</a>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
